@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipes — Manisha's Masala</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg style="display:none" aria-hidden="true">
+<defs>
+<symbol id="icon-logomark" viewBox="0 0 48 48">
+  <path d="M20 6c6 2 9 9 7 16-2 8-9 15-16 15-5 0-8-4-7-9 2-9 8-16 12-20 1-1 2-2 4-2z" fill="var(--chili)"/>
+  <path d="M20 6c-3-2-6-1-8 2" fill="none" stroke="var(--green)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="34" cy="32" r="7" fill="var(--saffron)"/>
+</symbol>
+<symbol id="icon-flame" viewBox="0 0 48 48">
+  <path d="M24 4c-3 8-14 14-14 26 0 9 7 15 14 15s14-6 14-15c0-6-3-9-5-12 0 4-2 6-4 6-3 0-3-4-1-8 2-4 0-9-4-12z" fill="var(--chili)"/>
+  <path d="M24 20c-2 4-5 7-5 12 0 4 3 7 5 7s5-3 5-7c0-3-1-4-2-6 0 2-1 3-2 3-1 0-1-2 0-4 1-2 0-4-1-5z" fill="var(--saffron)"/>
+</symbol>
+<symbol id="icon-leaf" viewBox="0 0 48 48">
+  <path d="M24 6c11 2 18 11 16 22-2 9-10 15-19 14C10 41 5 33 6 24 8 13 15 6 24 6z" fill="var(--green)"/>
+  <path d="M24 10c-4 8-4 18 4 26" fill="none" stroke="var(--green-soft)" stroke-width="2.5" stroke-linecap="round"/>
+</symbol>
+<symbol id="icon-grain-bowl" viewBox="0 0 48 48">
+  <path d="M6 22c0 11 8 19 18 19s18-8 18-19z" fill="var(--bg-card)" stroke="var(--chili-deep)" stroke-width="2"/>
+  <ellipse cx="16" cy="24" rx="3" ry="1.6" fill="var(--saffron-deep)"/>
+  <ellipse cx="24" cy="27" rx="3" ry="1.6" fill="var(--chili)"/>
+  <ellipse cx="32" cy="23" rx="3" ry="1.6" fill="var(--green)"/>
+  <ellipse cx="22" cy="20" rx="3" ry="1.6" fill="var(--saffron)"/>
+</symbol>
+<symbol id="icon-swirl" viewBox="0 0 48 48">
+  <circle cx="24" cy="24" r="18" fill="none" stroke="var(--saffron)" stroke-width="3"/>
+  <circle cx="24" cy="24" r="11" fill="none" stroke="var(--chili)" stroke-width="3"/>
+  <circle cx="24" cy="24" r="4" fill="var(--saffron-deep)"/>
+</symbol>
+</defs>
+</svg>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <svg class="brand-icon" aria-hidden="true"><use href="#icon-logomark"/></svg>
+    <span class="wordmark">Manisha&rsquo;s Masala</span>
+  </a>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="recipes.html" class="is-current">Recipes</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <p class="hero-kicker">Two tracks, one table</p>
+    <h1>Recipes</h1>
+    <p>
+      Every recipe here starts from the same structured Indian-fusion
+      framework, then splits into two tracks: bold, no-restrictions
+      <strong>Fusion</strong> dishes, and <strong>Allergy-Safe</strong>
+      dishes built from the ground up to be gluten-free, nut-free, and
+      sesame-free. Nothing is labeled allergy-safe unless it's explicitly
+      built and tagged that way.
+    </p>
+    <div class="recipe-subnav">
+      <a href="#fusion">Regular Fusion →</a>
+      <a href="#allergy-safe">Allergy-Safe →</a>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- FUSION TRACK                                   -->
+  <!-- ============================================= -->
+  <section id="fusion" class="recipe-track">
+    <div class="recipe-track-head">
+      <span class="explore-eyebrow">Full flavor, no restrictions</span>
+      <h2>Regular Fusion Recipes</h2>
+      <p>
+        Sixteen Indian–Mexican and Indian–American dishes for cooks who
+        want bold, adventurous combinations — no substitutions, no
+        holding back.
+      </p>
+    </div>
+
+    <h3 class="recipe-category"><svg class="icon" aria-hidden="true"><use href="#icon-flame"/></svg>Protein</h3>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <h4>Tandoori Al Pastor Tacos</h4>
+        <p class="recipe-desc">Two trompo traditions collide — tandoori-charred chicken thighs stand in for al pastor, piled onto corn tortillas with all the smoky-sweet drama intact.</p>
+        <ul class="recipe-highlights">
+          <li>Tandoori-marinated chicken thigh</li>
+          <li>Charred pineapple</li>
+          <li>Achiote-chili glaze</li>
+          <li>Cilantro-mint crema</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Keema Smash Burger</h4>
+        <p class="recipe-desc">A backyard burger gets a spice-cabinet upgrade — garam masala keema, smashed thin and crispy-edged, stacked high with curry-leaf onions.</p>
+        <ul class="recipe-highlights">
+          <li>Spiced lamb or beef keema patty</li>
+          <li>Curry-leaf caramelized onions</li>
+          <li>Mango-habanero ketchup</li>
+          <li>Toasted brioche bun</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Butter Chicken Quesadilla</h4>
+        <p class="recipe-desc">Everything you love about butter chicken, folded into a quesadilla and finished with a tamarind crema that ties the whole thing together.</p>
+        <ul class="recipe-highlights">
+          <li>Shredded butter chicken</li>
+          <li>Charred poblano</li>
+          <li>Pepper jack cheese</li>
+          <li>Tamarind crema</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Chili-Garlic Paneer Carnitas Tacos</h4>
+        <p class="recipe-desc">Paneer takes the carnitas seat — seared until crisp-edged and tossed in a chili-garlic glaze that holds its own against any taco truck.</p>
+        <ul class="recipe-highlights">
+          <li>Chili-garlic seared paneer</li>
+          <li>Pickled red onion</li>
+          <li>Cotija cheese</li>
+          <li>Cilantro chutney</li>
+        </ul>
+      </article>
+    </div>
+
+    <h3 class="recipe-category"><svg class="icon" aria-hidden="true"><use href="#icon-leaf"/></svg>Veggies</h3>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <h4>Chana Masala Street Corn</h4>
+        <p class="recipe-desc">Mexican street corn meets chana masala for a bowl that's equal parts smoky, tangy, and spice-forward.</p>
+        <ul class="recipe-highlights">
+          <li>Chana masala</li>
+          <li>Grilled corn kernels</li>
+          <li>Chili-lime mayo</li>
+          <li>Tajín</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Baingan Bharta Tostadas</h4>
+        <p class="recipe-desc">Smoky roasted eggplant mash, piled high on a crackling tostada shell — comfort food from two kitchens, on one plate.</p>
+        <ul class="recipe-highlights">
+          <li>Fire-roasted baingan bharta</li>
+          <li>Crispy tostada shell</li>
+          <li>Pico de gallo</li>
+          <li>Queso fresco</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Aloo Tikki Sliders</h4>
+        <p class="recipe-desc">The classic street-food patty, sized down for sliders and dressed up with a tangy tamarind aioli.</p>
+        <ul class="recipe-highlights">
+          <li>Spiced potato-pea tikki patty</li>
+          <li>Mint-cilantro slaw</li>
+          <li>Tamarind aioli</li>
+          <li>Pickled jalapeño</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Saag Paneer Flatbread Pizza</h4>
+        <p class="recipe-desc">Creamy saag paneer stands in for pizza sauce, proving spinach and cheese belong together in any cuisine.</p>
+        <ul class="recipe-highlights">
+          <li>Saag paneer base</li>
+          <li>Naan crust</li>
+          <li>Shredded mozzarella</li>
+          <li>Chili oil drizzle</li>
+        </ul>
+      </article>
+    </div>
+
+    <h3 class="recipe-category"><svg class="icon" aria-hidden="true"><use href="#icon-grain-bowl"/></svg>Starch &amp; Fiber</h3>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <h4>Masala Street Corn Rice Bowl</h4>
+        <p class="recipe-desc">A rice bowl built for grazing — charred corn, black beans, and a chili-lime crema over turmeric basmati.</p>
+        <ul class="recipe-highlights">
+          <li>Turmeric basmati rice</li>
+          <li>Charred street corn</li>
+          <li>Black beans</li>
+          <li>Chili-lime crema</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Rajma Burrito</h4>
+        <p class="recipe-desc">Kidney bean curry rolled burrito-style, because rajma chawal and a burrito bowl were always destined to meet.</p>
+        <ul class="recipe-highlights">
+          <li>Rajma (kidney bean curry)</li>
+          <li>Cumin rice</li>
+          <li>Avocado crema</li>
+          <li>Flour tortilla</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Vada Pav Sliders</h4>
+        <p class="recipe-desc">Mumbai's favorite street snack, slider-sized, with a fried green chili on the side for those who dare.</p>
+        <ul class="recipe-highlights">
+          <li>Spiced potato fritter (vada)</li>
+          <li>Garlic chutney</li>
+          <li>Soft pav buns</li>
+          <li>Fried green chili</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Chicken Tikka Burrito Bowl</h4>
+        <p class="recipe-desc">Tikka-marinated chicken over saffron rice — a burrito bowl that eats like a tandoor plate.</p>
+        <ul class="recipe-highlights">
+          <li>Tikka-marinated grilled chicken</li>
+          <li>Saffron rice</li>
+          <li>Grilled bell peppers</li>
+          <li>Mint yogurt</li>
+        </ul>
+      </article>
+    </div>
+
+    <h3 class="recipe-category"><svg class="icon" aria-hidden="true"><use href="#icon-swirl"/></svg>Dessert</h3>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <h4>Gulab Jamun Churros</h4>
+        <p class="recipe-desc">Fried dough, rosewater sugar, and a warm condensed milk dip — two celebration desserts finally sharing a plate.</p>
+        <ul class="recipe-highlights">
+          <li>Fried dough rounds</li>
+          <li>Rosewater-cardamom sugar</li>
+          <li>Condensed milk dip</li>
+          <li>Crushed pistachio</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Mango Lassi Paletas</h4>
+        <p class="recipe-desc">Frozen mango lassi on a stick — the ultimate hot-day dessert with a cardamom kick.</p>
+        <ul class="recipe-highlights">
+          <li>Mango lassi base</li>
+          <li>Cardamom</li>
+          <li>Pistachio dust</li>
+          <li>Lime zest</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Chai-Spiced Tres Leches Cake</h4>
+        <p class="recipe-desc">A tres leches cake soaked in masala chai instead of plain milk — every bite tastes like a chai break.</p>
+        <ul class="recipe-highlights">
+          <li>Masala chai-soaked sponge</li>
+          <li>Whipped cream</li>
+          <li>Cinnamon dust</li>
+          <li>Cardamom</li>
+        </ul>
+      </article>
+      <article class="recipe-card">
+        <h4>Jalebi Funnel Cake</h4>
+        <p class="recipe-desc">Funnel cake gets the jalebi treatment — crisp, syrup-soaked swirls dusted with sugar and crushed pistachio.</p>
+        <ul class="recipe-highlights">
+          <li>Fried swirled batter</li>
+          <li>Saffron-cardamom syrup</li>
+          <li>Powdered sugar</li>
+          <li>Crushed pistachio</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- ALLERGY-SAFE TRACK                              -->
+  <!-- ============================================= -->
+  <section id="allergy-safe" class="recipe-track recipe-track--safe">
+    <div class="recipe-track-head">
+      <span class="explore-eyebrow">Gluten-Free · Nut-Free · Sesame-Free</span>
+      <h2>Allergy-Safe Recipes</h2>
+      <p>
+        Sixteen dishes built with the same fusion spirit, checked for
+        protein and fiber balance, and labeled clearly so your family can
+        eat together without guesswork.
+      </p>
+    </div>
+
+    <div class="swap-callout">
+      <h3>Mastering the Swap</h3>
+      <ul>
+        <li>Soaked raw sunflower or pumpkin seeds replace cashew and poppy seed pastes for creamy gravies.</li>
+        <li>Cornmeal (makki), finger millet (ragi), sorghum, or chickpea flour (besan) replace wheat flatbreads.</li>
+        <li>Store-bought hing (asafoetida) often hides wheat — look for certified gluten-free versions.</li>
+      </ul>
+    </div>
+
+    <h3 class="recipe-category"><svg class="icon" aria-hidden="true"><use href="#icon-flame"/></svg>Protein</h3>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Tandoori Chicken Street Tacos</h4>
+        <p class="recipe-desc">Tandoori-charred chicken thighs on warm corn tortillas — all the smoky flavor, none of the allergens to worry about.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> High protein from chicken, extra fiber from the cabbage-lime slaw.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Chili-Lime Turkey Keema Bowl</h4>
+        <p class="recipe-desc">A mild, family-friendly keema bowl built on ground turkey and finished with a bright chili-lime dressing.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Lean protein from turkey, fiber boost from black beans.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Chickpea Tikka Masala Tostadas</h4>
+        <p class="recipe-desc">A plant-based tikka masala piled onto crisp corn tostadas — rich, saucy, and completely nut-free.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Chickpeas bring plant protein and fiber together.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Sunflower Seed Butter Chicken Quesadilla</h4>
+        <p class="recipe-desc">Our creamy butter chicken sauce, made rich with sunflower seed cream instead of cashews, folded into a gluten-free tortilla.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> High protein from chicken, gentle fiber from the corn tortilla.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+    </div>
+
+    <h3 class="recipe-category"><svg class="icon" aria-hidden="true"><use href="#icon-leaf"/></svg>Veggies</h3>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Chana Masala Elote Bowl</h4>
+        <p class="recipe-desc">Smoky grilled corn and chana masala, layered into a bowl the whole table can share without a second thought.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Chickpeas bring both plant protein and fiber.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Roasted Eggplant Baingan Tostadas</h4>
+        <p class="recipe-desc">Smoky roasted eggplant, spooned onto crisp corn tostadas with a sunflower seed crema in place of the usual cashew cream.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Moderate fiber from eggplant — pair with a bean side for extra protein.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Mostly — mild spice, easy to adjust</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Spiced Potato &amp; Pea Tikki Cups</h4>
+        <p class="recipe-desc">The classic tikki patty, baked instead of fried and shaped into bite-sized cups little hands can hold.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Peas and chickpea flour add plant protein and fiber.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Saag Tofu Rice Paper Rolls</h4>
+        <p class="recipe-desc">Creamy saag reimagined as a cool, wrap-friendly roll — a fun, hands-on way to get greens onto the table.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Tofu delivers protein; spinach adds fiber.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes, especially as a build-your-own roll station</p>
+      </article>
+    </div>
+
+    <h3 class="recipe-category"><svg class="icon" aria-hidden="true"><use href="#icon-grain-bowl"/></svg>Starch &amp; Fiber</h3>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Turmeric Rice &amp; Black Bean Bowl</h4>
+        <p class="recipe-desc">A simple, sunny bowl that proves allergy-safe doesn't mean boring — turmeric rice, black beans, and a squeeze of lime.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Black beans bring a strong fiber-and-protein combo.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Rajma Burrito Bowl</h4>
+        <p class="recipe-desc">Rajma chawal, deconstructed into a burrito bowl — hearty, high-fiber, and entirely gluten-free.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Kidney beans are one of our highest fiber-and-protein staples.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Ragi Vada Pav Sliders</h4>
+        <p class="recipe-desc">Vada pav rebuilt from the bun up — finger millet (ragi) buns replace wheat pav, with the same beloved spiced potato filling.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Ragi flour adds fiber; the potato filling is gentle on young stomachs.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Chicken Tikka Quinoa Bowl</h4>
+        <p class="recipe-desc">Tikka-marinated chicken over quinoa instead of rice, for a protein-and-fiber combo that keeps the whole family full.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Chicken plus quinoa gives a complete protein and fiber boost.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+    </div>
+
+    <h3 class="recipe-category"><svg class="icon" aria-hidden="true"><use href="#icon-swirl"/></svg>Dessert</h3>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Rosewater Gulab Jamun Bites</h4>
+        <p class="recipe-desc">A smaller, milk-based take on gulab jamun — same rosewater syrup, sized for little hands and shared plates.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> A treat, not a fiber source — best enjoyed occasionally.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Mango Lassi Paletas</h4>
+        <p class="recipe-desc">Frozen mango lassi pops made with dairy yogurt and mango puree — no seeds, no nuts, no fuss.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Yogurt adds a light protein boost.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Chai-Spiced Coconut Kheer</h4>
+        <p class="recipe-desc">A gently spiced rice pudding made with coconut milk instead of nut-based creams — cozy, mild, and easy to love.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> Rice provides gentle fiber; pair with a protein side for balance.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes</p>
+      </article>
+      <article class="recipe-card">
+        <span class="tag-chip">Gluten-Free · Nut-Free · Sesame-Free</span>
+        <h4>Cornmeal Jalebi Bites</h4>
+        <p class="recipe-desc">Crisp, saffron-syrup-soaked swirls made from a cornmeal batter instead of the traditional wheat flour.</p>
+        <p class="recipe-note"><strong>Protein &amp; fiber:</strong> A treat food — enjoy in moderation alongside a balanced meal.</p>
+        <p class="recipe-kid"><strong>Kid-friendly:</strong> Yes, in small portions</p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Have a substitution question or a recipe request? <a href="contact.html">Get in touch</a>.</p>
+</footer>
+
+</body>
+</html>
